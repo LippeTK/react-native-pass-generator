@@ -1,7 +1,7 @@
 export default function generatePass() {
     let password: string = '';
-    let characters: string = 'Aa0$#123456789abcdefghijklmnopqrstuvwxyzFGHIJKLMNOP!';
-    let passwordLength = 8;
+    let characters: string = 'Aa0$#%&*-_/123456789abcdefghijklmnopqrstuvwxyzBCDEFGHIJKLMNOP!';
+    let passwordLength = 12;
 
     for (let index = 0; index < passwordLength; index++) {
         password += characters.charAt(
